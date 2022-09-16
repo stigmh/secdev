@@ -33,6 +33,8 @@
     * https://tryhackme.com/
 - PortSwigger Web Security Academy (free) interactive online web sec. training
     * https://portswigger.net/web-security
+- Free API Security class & certification based on OWASP API Security Top 10
+    * https://university.apisec.ai/apisec-certified-expert
 - OWASP Juice Shop (free) intentionally vulnerable application
     * https://owasp.org/www-project-juice-shop/
 - Practice cloud security with AzureGoat and AwsGoat
