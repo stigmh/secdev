@@ -20,6 +20,13 @@
         - JavaScript third-party (dependency) management: https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html
         - CWE/SANS Top 25 Most Dangerous Software Errors
             - https://www.sans.org/top25-software-errors/
+- Books
+    * [Secure Programming HOWTO - Creating Secure Software](https://dwheeler.com/secure-programs/) by _David A. Wheeler_
+        - **Free** HTML and PDF book by the author of [Flawfinder](https://pypi.org/project/flawfinder/)
+    * [The Art of Software Security Assessment](https://www.amazon.com/Art-Software-Security-Assessment-Vulnerabilities-ebook-dp-B004XVIWU2/dp/B004XVIWU2/) by _John McDonald_, _Mark Down_ and _Justin Schuh_
+        - As recommended by _Natalie Silvanovich_ at [Google Project Zero](https://googleprojectzero.blogspot.com)
+        - Note **only ebook** is the complete version for some reason
+   * [A Bug Hunter's Diary](https://www.amazon.com/Bug-Hunters-Diary-Software-Security-ebook/dp/B00652XO2I/) by _Tobias Klein_
 
 ## Interactive training
 
@@ -57,19 +64,74 @@
         - https://greenbone.github.io/docs/latest/index.html
     * Nessus
         - https://www.tenable.com/products/nessus
-* NIST’s list of SAST tools you can integrate in your DevSecOps pipeline:
+- OWASP Source Code Analysis Tools
+    - https://owasp.org/www-community/Source_Code_Analysis_Tools
+- NIST’s list of SAST tools you can integrate in your DevSecOps pipeline:
     - https://www.nist.gov/itl/ssd/software-quality-group/source-code-security-analyzers
-* DevSecOps vulnerability scanner
+- DevSecOps vulnerability scanner
     - https://www.sonarqube.org/
-* “Attack proxies” for web analysis and attacks:
+- “Attack proxies” for web analysis and attacks:
     - OWASP Zap Proxy (free)
         * https://www.zaproxy.org/
     - Portswigger Burp Suite (free limited version available)
         * https://portswigger.net/burp
     - Hetty (free)
         * https://hetty.xyz/
-* Privacy tools / alternatives to popular products
+- Privacy tools / alternatives to popular products
     - https://www.privacytools.io/
+
+## Communities
+
+- [DevSecOps Book Club](https://dsobook.club/)
+- [/r/netsec](https://old.reddit.com/r/netsec/)
+
+## Technology specific
+
+### Third-party dependency vulnerability scans
+
+### dotnet
+
+Find vulnerable packages:
+
+```
+dotnet list package --vulnerable --include-transitive
+```
+
+Outdated packages:
+
+```
+dotnet list package --outdated
+```
+
+### Java
+
+Use [OWASP Dependency-Check](https://owasp.org/www-project-dependency-check/)
+
+### python
+
+Find vulnerable dependencies with [pip-audit](https://pypi.org/project/pip-audit/)
+
+### nodejs / npm
+
+Check for third-party (dependencies) vulnerabilities:
+
+```
+npm audit
+```
+
+Only production packages:
+
+```
+npm audit --omit=dev
+```
+
+### rust
+
+Use [cargo-audit](https://crates.io/crates/cargo-audit)
+
+### go
+
+Use [govulncheck](https://pkg.go.dev/golang.org/x/vuln/cmd/govulncheck).
 
 ## Other lists
 
