@@ -1,6 +1,6 @@
 # Security resources for developers
 
-"The ultimate" collection of security resources and tools for developers. Contributions are appreciated.
+"The ultimate" collection of security resources and tools for secure development, secure coding and DevSecOps. Contributions (PRs) are appreciated.
 
 ## Litterature
 
@@ -27,6 +27,8 @@
         - As recommended by _Natalie Silvanovich_ at [Google Project Zero](https://googleprojectzero.blogspot.com)
         - Note **only ebook** is the complete version for some reason
    * [A Bug Hunter's Diary](https://www.amazon.com/Bug-Hunters-Diary-Software-Security-ebook/dp/B00652XO2I/) by _Tobias Klein_
+- Articles
+    * [How to prevent, detect and respond to cloud token theft](https://www.microsoft.com/en-us/security/blog/2022/11/16/token-tactics-how-to-prevent-detect-and-respond-to-cloud-token-theft/) (Session hijacking of cloud access token)
 
 ## Interactive training
 
