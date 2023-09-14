@@ -20,7 +20,11 @@
         - JavaScript third-party (dependency) management: https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html
         - CWE/SANS Top 25 Most Dangerous Software Errors
             - https://www.sans.org/top25-software-errors/
+- [Security Champions Playbook](https://github.com/c0rdis/security-champions-playbook)
 - Books
+    * [OWASP Code Review Guide v2 (2017)](https://owasp.org/www-project-code-review-guide/assets/OWASP_Code_Review_Guide_v2.pdf)
+        - Free **must read** for every developer
+        - [Project page](https://owasp.org/www-project-code-review-guide/)
     * [Secure Programming HOWTO - Creating Secure Software](https://dwheeler.com/secure-programs/) by _David A. Wheeler_
         - **Free** HTML and PDF book by the author of [Flawfinder](https://pypi.org/project/flawfinder/)
     * [The Art of Software Security Assessment](https://www.amazon.com/Art-Software-Security-Assessment-Vulnerabilities-ebook-dp-B004XVIWU2/dp/B004XVIWU2/) by _John McDonald_, _Mark Down_ and _Justin Schuh_
@@ -29,6 +33,9 @@
    * [A Bug Hunter's Diary](https://www.amazon.com/Bug-Hunters-Diary-Software-Security-ebook/dp/B00652XO2I/) by _Tobias Klein_
 - Articles
     * [How to prevent, detect and respond to cloud token theft](https://www.microsoft.com/en-us/security/blog/2022/11/16/token-tactics-how-to-prevent-detect-and-respond-to-cloud-token-theft/) (Session hijacking of cloud access token)
+    * [SVGs are dangerous](https://web.archive.org/web/20220416143159/https://www.mnemonic.no/blog/exploiting-scratch-with-a-malicious-image/). How an XSS vulnerability in an electron application can lead to remote code execution.
+- [Equinor AppSec information pages](https://appsec.equinor.com/)
+- [NAV's security playbook](https://sikkerhet.nav.no/) (Norwegian)
 
 ## Interactive training
 
@@ -57,7 +64,7 @@
 - Analyze and test your TLS/SSL configuration
     * https://www.ssllabs.com/ssltest/ (free)
     * https://github.com/drwetter/testssl.sh (free)
-- Web vulnerability scanners
+- (Web) Vulnerability scanners
     * Nikto (free)
         - https://github.com/sullo/nikto
     * Trivy (free)
@@ -70,8 +77,9 @@
     - https://owasp.org/www-community/Source_Code_Analysis_Tools
 - NIST’s list of SAST tools you can integrate in your DevSecOps pipeline:
     - https://www.nist.gov/itl/ssd/software-quality-group/source-code-security-analyzers
-- DevSecOps vulnerability scanner
+- Commercial DevSecOps vulnerability scanners
     - https://www.sonarqube.org/
+    - https://snyk.io/product/snyk-code/
 - “Attack proxies” for web analysis and attacks:
     - OWASP Zap Proxy (free)
         * https://www.zaproxy.org/
@@ -86,6 +94,8 @@
 
 - [DevSecOps Book Club](https://dsobook.club/)
 - [/r/netsec](https://old.reddit.com/r/netsec/)
+- 
+- [Security Champions Norge](https://securitychampions.no/) (Norwegian)
 
 ## Technology specific
 
