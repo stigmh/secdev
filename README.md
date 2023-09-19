@@ -20,6 +20,8 @@
         - JavaScript third-party (dependency) management: https://cheatsheetseries.owasp.org/cheatsheets/Third_Party_Javascript_Management_Cheat_Sheet.html
         - CWE/SANS Top 25 Most Dangerous Software Errors
             - https://www.sans.org/top25-software-errors/
+- Department of Defense (DoD) Enterprise DevSecOps Initiative
+    * https://software.af.mil/dsop/documents/
 - [Security Champions Playbook](https://github.com/c0rdis/security-champions-playbook)
 - Books
     * [OWASP Code Review Guide v2 (2017)](https://owasp.org/www-project-code-review-guide/assets/OWASP_Code_Review_Guide_v2.pdf)
@@ -94,7 +96,6 @@
 
 - [DevSecOps Book Club](https://dsobook.club/)
 - [/r/netsec](https://old.reddit.com/r/netsec/)
-- 
 - [Security Champions Norge](https://securitychampions.no/) (Norwegian)
 
 ## Technology specific
