@@ -75,10 +75,19 @@
         - https://greenbone.github.io/docs/latest/index.html
     * Nessus
         - https://www.tenable.com/products/nessus
-- OWASP Source Code Analysis Tools
-    - https://owasp.org/www-community/Source_Code_Analysis_Tools
-- NIST’s list of SAST tools you can integrate in your DevSecOps pipeline:
-    - https://www.nist.gov/itl/ssd/software-quality-group/source-code-security-analyzers
+- Static Application Security Testing (SAST)
+   - OWASP Source Code Analysis Tools
+      - https://owasp.org/www-community/Source_Code_Analysis_Tools
+   - NIST’s list of SAST tools you can integrate in your DevSecOps pipeline:
+      - https://www.nist.gov/itl/ssd/software-quality-group/source-code-security-analyzers
+   - Semgrep (commercial)
+      - https://semgrep.dev/products/semgrep-code/
+   - Snyk Code (commercial)
+      - https://snyk.io/product/snyk-code/
+   - Sonarcube (commercial)
+      - https://www.sonarsource.com/products/sonarqube/
+   - Flawfinder
+      - https://pypi.org/project/flawfinder/
 - Commercial DevSecOps vulnerability scanners
     - https://www.sonarqube.org/
     - https://snyk.io/product/snyk-code/
