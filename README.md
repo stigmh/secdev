@@ -76,6 +76,9 @@
     * Nessus
         - https://www.tenable.com/products/nessus
 - Static Application Security Testing (SAST)
+   - Repository listing static analysis tools for all programming languages
+      - https://github.com/analysis-tools-dev/static-analysis
+      - (website: https://analysis-tools.dev/)
    - OWASP Source Code Analysis Tools
       - https://owasp.org/www-community/Source_Code_Analysis_Tools
    - NIST’s list of SAST tools you can integrate in your DevSecOps pipeline:
@@ -98,6 +101,8 @@
         * https://portswigger.net/burp
     - Hetty (free)
         * https://hetty.xyz/
+- Aikido "all-in-one AppSec suite"
+   - https://www.aikido.dev/
 - Privacy tools / alternatives to popular products
     - https://www.privacytools.io/
 
