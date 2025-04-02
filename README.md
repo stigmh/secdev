@@ -22,6 +22,10 @@
             - https://www.sans.org/top25-software-errors/
 - Department of Defense (DoD) Enterprise DevSecOps Initiative
     * https://software.af.mil/dsop/documents/
+- [OpenSSF Best Practices Working Group (WG)](https://best.openssf.org/)
+    * [Concise Guide for Developing More Secure Software](https://best.openssf.org/Concise-Guide-for-Developing-More-Secure-Software)
+    * [Compiler Options Hardening Guide for C and C++](https://best.openssf.org/Compiler-Hardening-Guides/Compiler-Options-Hardening-Guide-for-C-and-C++)
+    * [Memory Safety Continuum](https://memorysafety.openssf.org/memory-safety-continuum/)
 - [Security Champions Playbook](https://github.com/c0rdis/security-champions-playbook)
 - Books
     * [OWASP Code Review Guide v2 (2017)](https://owasp.org/www-project-code-review-guide/assets/OWASP_Code_Review_Guide_v2.pdf)
@@ -151,6 +155,8 @@ Only production packages:
 ```
 npm audit --omit=dev
 ```
+
+[npm Best Practices Guide](https://github.com/ossf/package-manager-best-practices/blob/main/published/npm.md)
 
 ### rust
 
