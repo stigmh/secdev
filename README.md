@@ -42,6 +42,7 @@
     * [SVGs are dangerous](https://web.archive.org/web/20220416143159/https://www.mnemonic.no/blog/exploiting-scratch-with-a-malicious-image/). How an XSS vulnerability in an electron application can lead to remote code execution.
 - [Equinor AppSec information pages](https://appsec.equinor.com/)
 - [NAV's security playbook](https://sikkerhet.nav.no/) (Norwegian)
+- [10 developer mitigations to prevent supply chain attacks](https://www.infoworld.com/article/3850718/developers-apply-these-10-mitigations-first-to-prevent-supply-chain-attacks.html)
 
 ## Interactive training
 
@@ -62,6 +63,8 @@
 - Practice cloud security with AzureGoat and AwsGoat
     * https://github.com/ine-labs/AWSGoat (AWS)
     * https://github.com/ine-labs/AzureGoat (Azure)
+- Learn and practice fuzzing
+    * [Antonio Morales' Fuzzing-101](https://github.com/antonio-morales/Fuzzing101/tree/main)
 
 ## Tools
 
