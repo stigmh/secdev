@@ -43,6 +43,8 @@
 - [Equinor AppSec information pages](https://appsec.equinor.com/)
 - [NAV's security playbook](https://sikkerhet.nav.no/) (Norwegian)
 - [10 developer mitigations to prevent supply chain attacks](https://www.infoworld.com/article/3850718/developers-apply-these-10-mitigations-first-to-prevent-supply-chain-attacks.html)
+- [Fifty Years of Open Source Software Supply Chain Security](https://queue.acm.org/detail.cfm?id=3722542)
+    * [HN Discussion](https://news.ycombinator.com/item?id=43614199)
 
 ## Interactive training
 
